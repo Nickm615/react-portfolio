@@ -8,18 +8,18 @@ function Contact() {
 
 
       <Form>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="contactEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" required/>
           <Form.Text className="text-muted">
           </Form.Text>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group className="mb-3" controlId="contactName">
           <Form.Label>Name</Form.Label>
           <Form.Control type="string" placeholder="Your name" required />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group className="mb-3" controlId="contactMessage">
           <Form.Label>Tell me something</Form.Label>
           <Form.Control type="string" placeholder="Your message" required />
         </Form.Group>
