@@ -74,6 +74,10 @@ function HomePage() {
                 deploylink = 'https://nickm615.github.io/Homework-5-Day-Planner/'
                  />
                  <Contact />
+                 <footer>
+                     <a className = 'm-auto' href = 'https://github.com/Nickm615'>See my work on github</a>
+                     <a className = 'm-auto' href = 'https://www.linkedin.com/in/nickmargaritondo/'>Connect with me on LinkedIn</a>
+                 </footer>
             </div>
 
     )
